@@ -1,0 +1,26 @@
+{
+  "name": "linter-vhdl",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "author": "Sebastien Lacoste <contact@graphman.fr>",
+  "description": "Vhdl linter",
+  "keywords": [],
+  "repository": "https://github.com/graphman65/linter-vhdl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "dependencies": {
+    "atom-package-dep": ">=4.6.0"
+  }
+}
