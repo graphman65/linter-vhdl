@@ -10,7 +10,7 @@ Small atom linter for the VHDL language.
 ### Install
 You can install through the CLI by doing:
 
-```$ apm install linter-touist```
+```$ apm install linter-vhdl```
 
 Or you can install from Settings view by searching for `vhdl`.
 
