@@ -14,5 +14,15 @@ You can install through the CLI by doing:
 
 Or you can install from Settings view by searching for `vhdl`.
 
+### Custom ghdl arguments
+
+You can provide custom arguments to the vhdl executable by adding a comment at the top of the file
+
+```-- args: [arguments]```
+
+##### Exemple
+
+```--args: --ieee=synopsys```
+
 ### Config
 - VHDL compiler path (default: ghdl)
