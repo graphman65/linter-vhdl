@@ -26,3 +26,4 @@ You can provide custom arguments to the vhdl executable by adding a comment at t
 
 ### Config
 - VHDL compiler path (default: ghdl)
+- Compile on lint (default: false)
