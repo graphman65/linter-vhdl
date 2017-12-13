@@ -22,7 +22,7 @@ You can provide custom arguments to the vhdl executable by adding a comment at t
 
 ##### Exemple
 
-```--args: --ieee=synopsys```
+```-- args: --ieee=synopsys```
 
 ### Config
 - VHDL compiler path (default: ghdl)
